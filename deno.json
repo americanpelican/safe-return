@@ -1,0 +1,21 @@
+{
+	"name": "@americanpelican/safe-return",
+	"version": "0.0.1",
+	"exports": "./src/safe-return.ts",
+	"publish": {
+		"include": [
+		  "LICENSE",
+		  "README.md",
+		  "src/**/*.ts"
+		]
+	  },
+	  "exclude": [
+		"src/tests"
+	  ],
+	"imports": {
+		"std/": "https://deno.land/std@0.224.0/"
+	  },
+	  "tasks": {
+		"dev": "deno run --watch main.ts"
+	  }
+}
