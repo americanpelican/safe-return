@@ -19,7 +19,9 @@ interface SafeBase {
  * @template T - The type of the data.
  */
 export interface SafeData<T> extends SafeBase {
+	/* success flag */
     success: true
+	/* data */
     data: T
   }
 
