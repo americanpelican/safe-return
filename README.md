@@ -1,6 +1,8 @@
 # safe-return
 TypeScript safe error returns without throwing exceptions
 
+[![JSR](https://jsr.io/badges/@<scope>/<package>)](https://jsr.io/@<scope>/<package>)
+
 ## Promise Example
 
 ```ts
