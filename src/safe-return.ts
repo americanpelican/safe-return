@@ -19,9 +19,9 @@ interface SafeBase {
  * @template T - The type of the data.
  */
 export interface SafeData<T> extends SafeBase {
-	/* success flag */
+	/**  success flag */
     success: true
-	/* data */
+	/** data */
     data: T
   }
 
@@ -29,7 +29,9 @@ export interface SafeData<T> extends SafeBase {
  * Represents an error response in the SafeReturn module.
  */
 export interface SafeError extends SafeBase {
+	/** error flag */
     success: false;
+	/** error string */
     error: string;
   }
 
