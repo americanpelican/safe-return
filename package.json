@@ -1,0 +1,24 @@
+{
+	"name": "@americanpelican/safe-return",
+	"version": "0.0.6",
+  "description": "TypeScript safe error returns without throwing exceptions.",
+  "type": "module",
+  "exports": "./src/safe-return.ts",
+  "bugs": {
+    "url": "https://github.com/americanpelican/safe-return/issues"
+  },
+  "homepage": "https://github.com/americanpelican/safe-return#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "types"
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

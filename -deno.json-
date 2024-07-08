@@ -1,6 +1,6 @@
 {
 	"name": "@americanpelican/safe-return",
-	"version": "1.0.0-alpha.1",
+	"version": "0.0.6",
 	"exports": "./src/safe-return.ts",
 	"publish": {
 		"include": [

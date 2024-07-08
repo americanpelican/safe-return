@@ -1,7 +1,7 @@
 # safe-return
 TypeScript safe error returns without throwing exceptions
 
-[![JSR](https://jsr.io/badges/@americanpelican/safe-return)](https://jsr.io/@americanpelican/safe-return)
+[![JSR](https://jsr.io/badges/@americanpelican/safe-return)](https://jsr.io/@americanpelican/safe-return) [![JSR Score](https://jsr.io/badges/@americanpelican/safe-return/score)](https://jsr.io/@americanpelican/safe-return)
 
 ## Promise Example
 
